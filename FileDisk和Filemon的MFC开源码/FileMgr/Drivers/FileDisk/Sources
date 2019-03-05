@@ -1,0 +1,5 @@
+TARGETNAME=FileDisk
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+INCLUDES=..\..\Include
+SOURCES=FileDisk.c FileDisk.rc

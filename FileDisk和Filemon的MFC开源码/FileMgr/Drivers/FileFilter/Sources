@@ -1,0 +1,9 @@
+TARGETNAME=FileFilter
+!IF "$(NT4DDK)" != ""
+TARGETPATH=$(BASEDIR)\lib
+!ELSE
+TARGETPATH=obj
+!ENDIF
+TARGETTYPE=DRIVER
+INCLUDES=..\..\Include
+SOURCES=FileFilter.c FileFilter.rc
